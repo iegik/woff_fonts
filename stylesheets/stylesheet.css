@@ -372,11 +372,10 @@ Full-Width Styles
   background: #212121;
 }
 
-#sidebar {
-	width: 50%;
-    max-width: 640px;
-    min-width: 340px;
-    padding-right: 20px;
+#source {
+	height: 355px;
+	width:100%;
+	max-width: 100%;
 }
 #main_content {
 	-webkit-column-min-width: 200px;

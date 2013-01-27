@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
     <title>Woff fonts</title>
-<style>
+<style id="template">
 @font-face {
   font-family: 'LondrinaShadow';
   font-style: normal;
@@ -216,7 +216,7 @@ Element.prototype.getFontWidthEm = function() {
 */
 function changeFont(selected){
 	var 
-		style = document.getElementsByTagName('style')[0],
+		style = document.getElementById('template'),
 		mainFont = document.getElementById('mainFont'),
 		output = document.getElementsByTagName('textarea')[0],
 		body = document.getElementsByTagName('body')[0],
