@@ -50,7 +50,16 @@
     url('../fonts/LondrinaShadow/LondrinaShadow-Italic.ttf') format('truetype'),
     url('../fonts/LondrinaShadow/LondrinaShadow-Italic.svg#Boton-Italic') format('svg');
 }
-body { font-family: 'LondrinaShadow', Trebuchet MS, Helvetica, sans-serif; }
+body {
+	font-family: 'LondrinaShadow', Trebuchet MS, Helvetica, sans-serif; 
+}
+p {
+	line-height: 1.5;
+	background-image: -webkit-linear-gradient(-90deg,rgba(128,128,128,.5) 1px,transparent 0, transparent 1.5em);
+	background-position: 0 1.1em;
+	background-size: 1.5em 1.5em;
+	background-repeat: repeat;
+}
 </style>
   </head>
 
@@ -241,6 +250,7 @@ function changeFont(selected){
 }
 
 </script>
+<script src="https://gist.github.com/raw/4706804/dropimage.js"></script>
       </section>
     </div>
 
