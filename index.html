@@ -50,8 +50,13 @@
     url('../fonts/LondrinaShadow/LondrinaShadow-Italic.ttf') format('truetype'),
     url('../fonts/LondrinaShadow/LondrinaShadow-Italic.svg#Boton-Italic') format('svg');
 }
+
+p {
+	background-size: 100% 2em;
+	line-height: 2;
+}
 </style>
-  </head>
+</head>
 
   <body>
 
@@ -79,7 +84,10 @@
 
 <form id="sidebar">
 	<p>
-		<input id="mainFont" placeholder="LondrinaShadow" onchange="changeFont(this);">
+		<input id="mainFont1" placeholder="LondrinaShadow" onchange="changeFont(this);">
+		<select id="mainFont" onchange="changeFont(this);" data-old="LondrinaShadow">
+          <option value="">none</option>
+        <option value="Abel">Abel</option><option value="Boton">Boton</option><option value="Cobel">Cobel</option><option value="DDZDalet">DDZDalet</option><option value="DTCVanDijk">DTCVanDijk</option><option value="Fishmonger">Fishmonger</option><option value="FrutigerNeue">FrutigerNeue</option><option value="Georgia">Georgia</option><option value="LondrinaShadow">LondrinaShadow</option><option value="LondrinaSolid">LondrinaSolid</option><option value="Myriad">Myriad</option><option value="PalatinoLinotype">PalatinoLinotype</option><option value="PlainProCond">PlainProCond</option><option value="QuattrocentoSans">QuattrocentoSans</option><option value="SFAutomaton">SFAutomaton</option><option value="SpecialElite">SpecialElite</option><option value="Voltare">Voltare</option><option value="droidsans">droidsans</option>        </select>
 		<select id="alternativeFont" onchange="changeFont(this);">
 			<optgroup label="serif Fonts">
 				<option value="Georgia">Georgia, serif	</option>
@@ -101,19 +109,7 @@
 				<option value="Lucida Console">Lucida Console, Monaco, monospace	</option>
 			</optgroup>
 		</select>
-		
-<style>
-		@font-face {font-family: "Georgia";src: local("../fonts/websafe/Georgia.ttf"), url("../fonts/websafe/Georgia.eot") format("eot"), url("../fonts/websafe/Georgia.ttf") format("ttf"), url("../fonts/websafe/Georgia.woff") format("woff");line-height: 1.35em;}@font-face {font-family: "Palatino Linotype";src: local("../fonts/websafe/Palatino Linotype.ttf"), url("../fonts/websafe/Palatino Linotype.eot") format("eot"), url("../fonts/websafe/Palatino Linotype.ttf") format("ttf"), url("../fonts/websafe/Palatino Linotype.woff") format("woff");line-height: 1.9em;}@font-face {font-family: "Times New Roman";src: local("../fonts/websafe/Times New Roman.ttf"), url("../fonts/websafe/Times New Roman.eot") format("eot"), url("../fonts/websafe/Times New Roman.ttf") format("ttf"), url("../fonts/websafe/Times New Roman.woff") format("woff");line-height: 1.35em;}@font-face {font-family: "Arial";src: local("../fonts/websafe/Arial.ttf"), url("../fonts/websafe/Arial.eot") format("eot"), url("../fonts/websafe/Arial.ttf") format("ttf"), url("../fonts/websafe/Arial.woff") format("woff");line-height: 1.65em;}@font-face {font-family: "Arial Black";src: local("../fonts/websafe/Arial Black.ttf"), url("../fonts/websafe/Arial Black.eot") format("eot"), url("../fonts/websafe/Arial Black.ttf") format("ttf"), url("../fonts/websafe/Arial Black.woff") format("woff");line-height: 1.25em;}@font-face {font-family: "Comic Sans MS";src: local("../fonts/websafe/Comic Sans MS.ttf"), url("../fonts/websafe/Comic Sans MS.eot") format("eot"), url("../fonts/websafe/Comic Sans MS.ttf") format("ttf"), url("../fonts/websafe/Comic Sans MS.woff") format("woff");line-height: 1.15em;}@font-face {font-family: "Impact";src: local("../fonts/websafe/Impact.ttf"), url("../fonts/websafe/Impact.eot") format("eot"), url("../fonts/websafe/Impact.ttf") format("ttf"), url("../fonts/websafe/Impact.woff") format("woff");}@font-face {font-family: "Lucida Sans Unicode";src: local("../fonts/websafe/Lucida Sans Unicode.ttf"), url("../fonts/websafe/Lucida Sans Unicode.eot") format("eot"), url("../fonts/websafe/Lucida Sans Unicode.ttf") format("ttf"), url("../fonts/websafe/Lucida Sans Unicode.woff") format("woff");}@font-face {font-family: "Tahoma";src: local("../fonts/websafe/Tahoma.ttf"), url("../fonts/websafe/Tahoma.eot") format("eot"), url("../fonts/websafe/Tahoma.ttf") format("ttf"), url("../fonts/websafe/Tahoma.woff") format("woff");}@font-face {font-family: "Trebuchet MS";src: local("../fonts/websafe/Trebuchet MS.ttf"), url("../fonts/websafe/Trebuchet MS.eot") format("eot"), url("../fonts/websafe/Trebuchet MS.ttf") format("ttf"), url("../fonts/websafe/Trebuchet MS.woff") format("woff");}@font-face {font-family: "Verdana";src: local("../fonts/websafe/Verdana.ttf"), url("../fonts/websafe/Verdana.ttf") format("eot"), url("../fonts/websafe/Verdana.ttf") format("ttf"), url("../fonts/websafe/Verdana.woff") format("woff");line-height: 1.65em;}@font-face {font-family: "Courier New";src: local("../fonts/websafe/Courier New.ttf"), url("../fonts/websafe/Courier New.eot") format("eot"), url("../fonts/websafe/Courier New.ttf") format("ttf"), url("../fonts/websafe/Courier New.woff") format("woff");}@font-face {font-family: "Lucida Console";src: local("../fonts/websafe/Lucida Console.ttf"), url("../fonts/websafe/Lucida Console.eot") format("eot"), url("../fonts/websafe/Lucida Console.ttf") format("ttf"), url("../fonts/websafe/Lucida Console.woff") format("woff");}
-	
-	*#monospace{letter-spacing: 0;max-width:none;width:auto;min-width:auto;padding: 0;margin: 0;border:0;background-color: rgba(128,128,128,.5);background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHYAAAA7CAQAAAAEaLYoAAAAAmJLR0QARaw7li0AAAAJcEhZcwAA CxMAAAsTAQCanBgAAAAHdElNRQfcCQoMLAGMqVa9AAAAY0lEQVRo3u3RwQkAIAwEwURszMotTWvw FTCzDRzDZezo06nA7prV0ejXgIWFhYWFhYWFhYWFhYWFhYWFhYWFhYWF/axZsrrSs7CwsLCwsLCw sLCwsLCwsLCwsLCwsLCwsLBPXZRtBnHm6BKEAAAAAElFTkSuQmCC");background-repeat: repeat-x;background-position: 0 1em;padding-bottom:.5em;display:inline-block;-webkit-appearance: none;appearance: none;visibility: visible;-webkit-white-space: nowrap;-khtml-white-space: nowrap;-moz-white-space: nowrap;-ms-white-space: nowrap;-o-white-space: nowrap;white-space: nowrap;word-wrap: normal;-webkit-word-break: keep-all;-khtml-word-break: keep-all;-moz-word-break: keep-all;-ms-word-break: keep-all;-o-word-break: keep-all;word-break: keep-all;}​
-p {
-	line-height: 1.5;
-	background-image: -webkit-linear-gradient(-90deg,rgba(128,128,128,.5) 1px,transparent 0, transparent 1.5em);
-	background-position: 0 1.1em;
-	background-size: 1.5em 1.5em;
-	background-repeat: repeat;
-}
-</style>
+
 		<input type="number" value="12" onchange="(function(d,s){d.body.style.fontSize=s+'pt';console.log('font-size: '+s+'pt')})(document,this.value)" style="
     width: 45px;
 ">pt
@@ -180,6 +176,46 @@ p {
         0123456789!@#$%^&amp;*(){}[],.
     </p>
 </div>
+<hr/>
+<form>
+		font-weight:
+		<label><input name="fontWeight" type="radio" value="inherit">inherit</label>
+		<label>
+			<select name="fontWeight">
+				<optgroup label="Normal">
+					<option>(Very Light)</option>
+					<option value="100">(100) Ultra Light (Light)</option>
+					<option value="200">(200) Thin (Thin)</option>
+					<option value="300">(300) Light (Book)</option>
+					<option value="400">(400) Regular (Medium)</option>
+					<option value="500">(500) Semi Bold (Demi)</option>
+				</optgroup>
+				<optgroup label="Bold">
+					<option value="600">(600) Bold (Bold)</option>
+					<option value="700">(700) Extra Bold (Heavy)</option>
+					<option value="800">(800) Heavy (Black)</option>
+					<option value="900">(900) Ultra Heavy (Nord)</option>
+				</optgroup>
+			</select>
+		</label>
+		<label><input name="fontWeight" type="radio" value="-100">lighter</label>
+		<label><input name="fontWeight" type="radio" value="initial">initial</label>
+		<label><input name="fontWeight" type="radio" value="100">bolder</label>
+		
+		<label>line-height:<input name="lineheight" type="number" placeholder="1.5" size="3"/>em</label>
+		<label><em>interligne</em>:<input name="lineheight" type="number" placeholder="0.5"  size="3"/>em</label>
+</form>
+<div id="test1">
+	<h3>Custom</h3>
+    <p class="custom">
+        <span style="text-transform:lowercase;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
+        <span style="text-transform:capitalize;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
+        <span style="font-variant:small-caps;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
+        <span style="text-transform:uppercase;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
+        ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
+        0123456789!@#$%^&amp;*(){}[],.
+    </p>
+</div>
 <script src="http://leaverou.github.com/prefixfree/prefixfree.min.js"></script>
 	<script>
 	/* For counting average letter width (absolute width for monospace fonts)
@@ -220,27 +256,28 @@ Element.prototype.getFontWidthEm = function() {
 	d.getElementById('monospace').onmouseout();
 })(document);
 */
+//var mainFont = document.getElementById('mainFont');
 function changeFont(selected){
 	var 
 		style = document.getElementById('template'),
-		mainFont = document.getElementById('mainFont'),
+		mainFont = selected,
+		oldFont = 'data-old',
+		tmp = mainFont.getAttribute(oldFont),
 		output = document.getElementsByTagName('textarea')[0],
 		body = document.getElementsByTagName('body')[0],
 		alternativeFont = document.getElementById('alternativeFont'),
-		regex = new RegExp(mainFont.placeholder,'gi'),
+		regex = new RegExp(tmp,'gi'),
 		s = style.innerHTML,
-		fontFamily = mainFont.placeholder + ', ' + alternativeFont.selectedOptions[0].innerText;
+		fontFamily = tmp + ', ' + alternativeFont.selectedOptions[0].innerText;
 	if(selected.value === alternativeFont.value) {
 	
 		body.style.fontFamily = (RegExp(mainFont.value).test(alternativeFont.selectedOptions[0].innerText)?'':mainFont.value + ', ')+alternativeFont.selectedOptions[0].innerText;
 	}else{
-		mainFont.placeholder = selected.value || mainFont.placeholder;
-		output.value = style.innerHTML = s.replace(regex,mainFont.placeholder);
-	console.log(regex,mainFont.placeholder);
+		tmp = selected.value || tmp;
+		mainFont.setAttribute(oldFont,tmp);
+		output.value = style.innerHTML = s.replace(regex,tmp);
 		regex = new RegExp(fontFamily,'gi');
-		fontFamily = mainFont.placeholder + ', ' + alternativeFont.selectedOptions[0].innerText;
-		//output.value = style.innerHTML = s.replace(regex,mainFont.placeholder);
-	//console.log(regex,mainFont.placeholder);
+		fontFamily = tmp + ', ' + alternativeFont.selectedOptions[0].innerText;
 		body.style.fontFamily = fontFamily;
 	}
 	console.log('font-family:' + body.style.fontFamily);
