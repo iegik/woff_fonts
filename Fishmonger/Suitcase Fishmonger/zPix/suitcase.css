@@ -1,0 +1,87 @@
+TD {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; LINE-HEIGHT: 13px; FONT-FAMILY: Verdana, "Geneva CE", Arial, Helvetica, sans-serif
+}
+A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.bold {
+	FONT-WEIGHT: bold
+}
+B {
+	FONT-WEIGHT: 600; COLOR: #000000
+}
+A:hover {
+	COLOR: #ff0099; TEXT-DECORATION: underline
+}
+#fontmenu A {
+	FONT-WEIGHT: 600; COLOR: #ff0099; TEXT-DECORATION: none
+}
+#fontmenu A:hover {
+	FONT-WEIGHT: 600; COLOR: #ff0099; TEXT-DECORATION: underline
+}
+#mainmenu A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+#mainmenu A:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+#foot A {
+	FONT-WEIGHT: normal; COLOR: #ff0099; TEXT-DECORATION: none
+}
+#foot A:hover {
+	FONT-WEIGHT: normal; COLOR: #ff0099; TEXT-DECORATION: underline
+}
+.bold_purple {
+	COLOR: #ff0099
+}
+BODY {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; LINE-HEIGHT: 13px; FONT-FAMILY: Verdana, "Geneva CE", Arial, Helvetica, sans-serif
+}
+TABLE {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; LINE-HEIGHT: 13px; FONT-FAMILY: Verdana, "Geneva CE", Arial, Helvetica, sans-serif
+}
+#fontmenu {
+	WIDTH: 210px
+}
+.prodej {
+	BORDER-RIGHT: #ff0099 1px solid; BORDER-TOP: #ff0099 2px solid; BORDER-LEFT: #ff0099 1px solid; BORDER-BOTTOM: #ff0099 2px solid
+}
+.family {
+	BORDER-RIGHT: #ff0099 0px solid; BORDER-TOP: #ff0099 1px solid; BORDER-LEFT: #ff0099 0px solid; BORDER-BOTTOM: #ff0099 0px solid; BACKGROUND-COLOR: #ffbfe5
+}
+.font {
+	BORDER-RIGHT: #ff0099 0px solid; BORDER-TOP: #ff0099 1px solid; BORDER-LEFT: #ff0099 0px solid; BORDER-BOTTOM: #ff0099 0px solid
+}
+.subfamily {
+	BORDER-RIGHT: #ff0099 0px solid; BORDER-TOP: #ff0099 1px solid; BORDER-LEFT: #ff0099 0px solid; BORDER-BOTTOM: #ff0099 0px solid; BACKGROUND-COLOR: #ffe5f5
+}
+.prodej2 {
+	BORDER-RIGHT: #ff0099 1px solid; BORDER-TOP: #ff0099 1px solid; BORDER-LEFT: #ff0099 1px solid; BORDER-BOTTOM: #ff0099 0px solid
+}
+.prodej_left {
+	BORDER-RIGHT: #ff0099 0px solid; BORDER-TOP: #ff0099 0px solid; BORDER-LEFT: #ff0099 1px solid; BORDER-BOTTOM: #ff0099 0px solid
+}
+.prodej_right {
+	BORDER-RIGHT: #ff0099 1px solid; BORDER-TOP: #ff0099 0px solid; BORDER-LEFT: #ff0099 0px solid; BORDER-BOTTOM: #ff0099 0px solid
+}
+.order_check {
+	BORDER-RIGHT: #ff0099 2px solid; BORDER-TOP: #ff0099 1px solid; BORDER-LEFT: #ff0099 2px solid; BORDER-BOTTOM: #ff0099 2px solid
+}
+INPUT {
+	FONT-SIZE: 10px; LINE-HEIGHT: 13px; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, san-serif
+}
+SELECT {
+	FONT-SIZE: 10px; WIDTH: 230px; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, san-serif
+}
+TEXTAREA {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, san-serif
+}
+#main A {
+	FONT-WEIGHT: 600; COLOR: #ff0099; TEXT-DECORATION: none
+}
+#main A:hover {
+	FONT-WEIGHT: 600; COLOR: #ff0099; TEXT-DECORATION: underline
+}
+.wide {
+	WIDTH: 200px
+}
