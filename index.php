@@ -191,7 +191,7 @@ p {
 					<option value="100">(100) Ultra Light (Light)</option>
 					<option value="200">(200) Thin (Thin)</option>
 					<option value="300">(300) Light (Book)</option>
-					<option value="400" selected="selected">(400) Regular (Medium)</option>
+					<option value="400">(400) Regular (Medium)</option>
 					<option value="500">(500) Semi Bold (Demi)</option>
 				</optgroup>
 				<optgroup label="Bold">
