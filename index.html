@@ -1,301 +1,326 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Woff fonts : " />
+<head>
+  <meta charset='utf-8' />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+  <meta name="description" content="Woff fonts : " />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Woff fonts</title>
-<style id="template">
-@font-face {
-  font-family: 'LondrinaShadow';
-  font-style: normal;
-  font-weight: bold;
-  src: local('LondrinaShadow Bold'),
-    url('https://github.com/iegik/woff_fonts/raw/dev/LondrinaShadow/LondrinaShadow-Bold.eot?#') format('embedded-opentype'),
-    url('https://github.com/iegik/woff_fonts/raw/dev/LondrinaShadow/LondrinaShadow-Bold.woff') format('woff'),
-    url('https://github.com/iegik/woff_fonts/raw/dev/LondrinaShadow/LondrinaShadow-Bold.ttf') format('truetype'),
-    url('https://github.com/iegik/woff_fonts/raw/dev/LondrinaShadow/LondrinaShadow-Bold.svg#Boton-Bold') format('svg');
-}
-@font-face {
-  font-family: 'LondrinaShadow';
-  font-style: normal;
-  font-weight: normal;
-  src: local('LondrinaShadow Regular'),
-    url('https://github.com/iegik/woff_fonts/raw/dev/LondrinaShadow/LondrinaShadow-Regular.eot?#') format('embedded-opentype'),
-    url('https://github.com/iegik/woff_fonts/raw/dev/LondrinaShadow/LondrinaShadow-Regular.woff') format('woff'),
-    url('https://github.com/iegik/woff_fonts/raw/dev/LondrinaShadow/LondrinaShadow-Regular.ttf') format('truetype'),
-    url('https://github.com/iegik/woff_fonts/raw/dev/LondrinaShadow/LondrinaShadow-Regular.svg#Boton-Regular') format('svg');
-}
-@font-face {
-  font-family: 'LondrinaShadow';
-  font-style: italic;
-  font-weight: bold;
-  src: local('LondrinaShadow Bold Italic'),
-    url('https://github.com/iegik/woff_fonts/raw/dev/LondrinaShadow/LondrinaShadow-Bold-Italic.eot?#') format('embedded-opentype'),
-    url('https://github.com/iegik/woff_fonts/raw/dev/LondrinaShadow/LondrinaShadow-Bold-Italic.woff') format('woff'),
-    url('https://github.com/iegik/woff_fonts/raw/dev/LondrinaShadow/LondrinaShadow-Bold-Italic.ttf') format('truetype'),
-    url('https://github.com/iegik/woff_fonts/raw/dev/LondrinaShadow/LondrinaShadow-Bold-Italic.svg#Boton-Bold-Italic') format('svg');
-}
-@font-face {
-  font-family: 'LondrinaShadow';
-  font-style: italic;
-  font-weight: normal;
-  src: local('LondrinaShadow Italic'),
-    url('https://github.com/iegik/woff_fonts/raw/dev/LondrinaShadow/LondrinaShadow-Italic.eot?#') format('embedded-opentype'),
-    url('https://github.com/iegik/woff_fonts/raw/dev/LondrinaShadow/LondrinaShadow-Italic.woff') format('woff'),
-    url('https://github.com/iegik/woff_fonts/raw/dev/LondrinaShadow/LondrinaShadow-Italic.ttf') format('truetype'),
-    url('https://github.com/iegik/woff_fonts/raw/dev/LondrinaShadow/LondrinaShadow-Italic.svg#Boton-Italic') format('svg');
-}
-
-p {
-	background-size: 100% 2em;
-	line-height: 2;
-}
-</style>
+  <title>Woff fonts</title>
+  <style id="template">
+    @font-face {
+      font-family: 'LondrinaShadow';
+      font-style: normal;
+      font-weight: bold;
+      src: local('LondrinaShadow Bold'), url('fonts/LondrinaShadow/LondrinaShadow-Bold.eot?#') format('embedded-opentype'), url('fonts/LondrinaShadow/LondrinaShadow-Bold.woff') format('woff'), url('fonts/LondrinaShadow/LondrinaShadow-Bold.ttf') format('truetype'), url('fonts/LondrinaShadow/LondrinaShadow-Bold.svg#Boton-Bold') format('svg');
+    }
+    
+    @font-face {
+      font-family: 'LondrinaShadow';
+      font-style: normal;
+      font-weight: normal;
+      src: local('LondrinaShadow Regular'), url('fonts/LondrinaShadow/LondrinaShadow-Regular.eot?#') format('embedded-opentype'), url('fonts/LondrinaShadow/LondrinaShadow-Regular.woff') format('woff'), url('fonts/LondrinaShadow/LondrinaShadow-Regular.ttf') format('truetype'), url('fonts/LondrinaShadow/LondrinaShadow-Regular.svg#Boton-Regular') format('svg');
+    }
+    
+    @font-face {
+      font-family: 'LondrinaShadow';
+      font-style: italic;
+      font-weight: bold;
+      src: local('LondrinaShadow Bold Italic'), url('fonts/LondrinaShadow/LondrinaShadow-Bold-Italic.eot?#') format('embedded-opentype'), url('fonts/LondrinaShadow/LondrinaShadow-Bold-Italic.woff') format('woff'), url('fonts/LondrinaShadow/LondrinaShadow-Bold-Italic.ttf') format('truetype'), url('fonts/LondrinaShadow/LondrinaShadow-Bold-Italic.svg#Boton-Bold-Italic') format('svg');
+    }
+    
+    @font-face {
+      font-family: 'LondrinaShadow';
+      font-style: italic;
+      font-weight: normal;
+      src: local('LondrinaShadow Italic'), url('fonts/LondrinaShadow/LondrinaShadow-Italic.eot?#') format('embedded-opentype'), url('fonts/LondrinaShadow/LondrinaShadow-Italic.woff') format('woff'), url('fonts/LondrinaShadow/LondrinaShadow-Italic.ttf') format('truetype'), url('fonts/LondrinaShadow/LondrinaShadow-Italic.svg#Boton-Italic') format('svg');
+    }
+    
+    .styled {
+      font-family: 'LondrinaShadow';
+      background-size: 100% 2em;
+      line-height: 2;
+    }
+  </style>
 </head>
 
-  <body>
+<body>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/iegik/woff_fonts">Fork Me on GitHub</a>
+  <!-- HEADER -->
+  <div id="header_wrap" class="outer">
+    <header class="inner">
+      <a id="forkme_banner" href="https://github.com/iegik/woff_fonts">Fork Me on GitHub</a>
 
-          <h1 id="project_title">Woff fonts</h1>
-          <h2 id="project_tagline"></h2>
+      <h1 id="project_title">Woff fonts</h1>
+      <h2 id="project_tagline"></h2>
 
-          <section id="downloads">
-            <a class="zip_download_link" href="https://github.com/iegik/woff_fonts/zipball/master">Download this project as a .zip file</a>
-            <a class="tar_download_link" href="https://github.com/iegik/woff_fonts/tarball/master">Download this project as a tar.gz file</a>
-          </section>
-        </header>
-    </div>
+      <section id="downloads">
+        <a class="zip_download_link" href="https://github.com/iegik/woff_fonts/zipball/master">Download this project as a .zip file</a>
+        <a class="tar_download_link" href="https://github.com/iegik/woff_fonts/tarball/master">Download this project as a tar.gz file</a>
+      </section>
+    </header>
+  </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>Woff Fonts</h1>
+  <!-- MAIN CONTENT -->
+  <div id="main_content_wrap" class="outer">
+    <section id="main_content" class="inner">
+      <h1>Woff Fonts</h1>
 
-<p>Some open source OTF fonts which I've converted to WOFF format for use on websites</p>
+      <p>Some open source OTF fonts which I've converted to WOFF format for use on websites</p>
 
-<form id="sidebar">
-	<p>
-		<input id="mainFont1" placeholder="LondrinaShadow" onchange="changeFont(this);">
-		<select id="mainFont" onchange="changeFont(this);" data-old="LondrinaShadow">
-          <option value="">none</option>
-        <option value="Abel">Abel</option><option value="Boton">Boton</option><option value="Cobel">Cobel</option><option value="DDZDalet">DDZDalet</option><option value="DTCVanDijk">DTCVanDijk</option><option value="Fishmonger">Fishmonger</option><option value="FrutigerNeue">FrutigerNeue</option><option value="Georgia">Georgia</option><option value="LondrinaShadow">LondrinaShadow</option><option value="LondrinaSolid">LondrinaSolid</option><option value="Myriad">Myriad</option><option value="PalatinoLinotype">PalatinoLinotype</option><option value="PlainPro">PlainPro</option><option value="PlainProCond">PlainProCond</option><option value="QuattrocentoSans">QuattrocentoSans</option><option value="SFAutomaton">SFAutomaton</option><option value="SpecialElite">SpecialElite</option><option value="Voltare">Voltare</option><option value="droidsans">droidsans</option>        </select>
-		<select id="alternativeFont" onchange="changeFont(this);">
-			<optgroup label="serif Fonts">
-				<option value="Georgia">Georgia, serif	</option>
-				<option value="Palatino Linotype">Palatino Linotype, Book Antiqua, Palatino, serif	</option>
-				<option value="Times New Roman">Times New Roman, Times, serif	</option>
-			</optgroup>
-			<optgroup label="sans-Serif Fonts">
-				<option value="Arial">Arial, Helvetica, sans-serif	</option>
-				<option value="Arial Black">Arial Black, Gadget, sans-serif	</option>
-				<option value="Comic Sans MS">Comic Sans MS, cursive, sans-serif	</option>
-				<option value="Impact">Impact, Charcoal, sans-serif	</option>
-				<option value="Lucida Sans Unicode">Lucida Sans Unicode, Lucida Grande, sans-serif	</option>
-				<option value="Tahoma">Tahoma, Geneva, sans-serif	</option>
-				<option value="Trebuchet MS">Trebuchet MS, Helvetica, sans-serif	</option>
-				<option value="Verdana">Verdana, Geneva, sans-serif	</option>
-			</optgroup>
-			<optgroup label="monospace Fonts">
-				<option value="Courier New">Courier New, Courier, monospace	</option>
-				<option value="Lucida Console">Lucida Console, Monaco, monospace	</option>
-			</optgroup>
-		</select>
+      <form id="fontFamily" data-target=".styled" data-old="LondrinaShadow">
+        <!--input name="fontFamily" placeholder="LondrinaShadow">
+          <select name="fontFamily">
+            <option value="">none</option>
+            <option value="Abel">Abel</option>
+            <option value="Boton">Boton</option>
+            <option value="Cobel">Cobel</option>
+            <option value="DDZDalet">DDZDalet</option>
+            <option value="DTCVanDijk">DTCVanDijk</option>
+            <option value="Fishmonger">Fishmonger</option>
+            <option value="FrutigerNeue">FrutigerNeue</option>
+            <option value="Georgia">Georgia</option>
+            <option value="LondrinaShadow">LondrinaShadow</option>
+            <option value="LondrinaSolid">LondrinaSolid</option>
+            <option value="Myriad">Myriad</option>
+            <option value="PalatinoLinotype">PalatinoLinotype</option>
+            <option value="PlainPro">PlainPro</option>
+            <option value="PlainProCond">PlainProCond</option>
+            <option value="QuattrocentoSans">QuattrocentoSans</option>
+            <option value="SFAutomaton">SFAutomaton</option>
+            <option value="SpecialElite">SpecialElite</option>
+            <option value="Voltare">Voltare</option>
+            <option value="droidsans">droidsans</option>
+          </select-->
+        <select name="fontFamily">
+          <optgroup label="serif">
+            <option value="Georgia, serif">Georgia</option>
+            <option value="Palatino Linotype, Book Antiqua, Palatino, serif">Palatino Linotype</option>
+            <option value="Times New Roman, Times, serif">Times New Roman</option>
+          </optgroup>
+          <optgroup label="sans">
+            <option value="Arial, Helvetica, sans-serif">Arial</option>
+            <option value="Arial Black, Gadget, sans-serif">Arial Black</option>
+            <option value="Impact, Charcoal, sans-serif">Impact</option>
+            <option value="Lucida Sans Unicode, Lucida Grande, sans-serif">Lucida Sans Unicode</option>
+            <option value="Tahoma, Geneva, sans-serif">Tahoma</option>
+            <option value="Trebuchet MS, Helvetica, sans-serif">Trebuchet MS</option>
+            <option value="Verdana, Geneva, sans-serif">Verdana</option>
+          </optgroup>
+          <optgroup label="monospace">
+            <option value="Courier New, Courier, monospace">Courier New</option>
+            <option value="Lucida Console, Monaco, monospace">Lucida Console</option>
+          </optgroup>
+          <optgroup label="fantasy">
+            <option value="Comic Sans MS, cursive, sans-serif">Comic Sans MS</option>
+          </optgroup>
+        </select>
+      </form>
 
-		<input type="number" value="12" onchange="(function(d,s){d.body.style.fontSize=s+'pt';console.log('font-size: '+s+'pt')})(document,this.value)" style="
-    width: 45px;
-">pt
-	</p>
+      <form id="fontSize" data-target=".styled">
+        <input name="fontSize" type="number" value="12" style="width: 45px;" data-postfix="pt">
+        <select name="fontSizeMeasurement" disabled>
+          <option value="pt" selected>pt</option>
+          <option value="%">%</option>
+          <option value="px">px</option>
+        </select>
+      </form>
 
-	<textarea id="source"></textarea>
-	<!--div id="aaa">
+            <hr/>
+      <form id="fontWeight" data-target=".styled.custom">
+        font-weight:
+        <label>
+          <input name="fontWeight" type="radio" value="inherit">inherit</label>
+        <label>
+          <select name="fontWeight">
+            <optgroup label="Normal">
+              <option>(Very Light)</option>
+              <option value="100">(100) Ultra Light (Light)</option>
+              <option value="200">(200) Thin (Thin)</option>
+              <option value="300">(300) Light (Book)</option>
+              <option value="400">(400) Regular (Medium)</option>
+              <option value="500">(500) Semi Bold (Demi)</option>
+            </optgroup>
+            <optgroup label="Bold">
+              <option value="600">(600) Bold (Bold)</option>
+              <option value="700">(700) Extra Bold (Heavy)</option>
+              <option value="800">(800) Heavy (Black)</option>
+              <option value="900">(900) Ultra Heavy (Nord)</option>
+            </optgroup>
+          </select>
+        </label>
+        <label>
+          <input name="fontWeight" type="radio" value="-100">lighter</label>
+        <label>
+          <input name="fontWeight" type="radio" value="initial">initial</label>
+        <label>
+          <input name="fontWeight" type="radio" value="100">bolder</label>
+      </form>
+      
+      <form id="lineHeight" data-target=".styled.custom">
+        <label>line-height:
+          <input name="lineHeight" type="number" placeholder="1.5" size="3" step="0.05" min="0.5" />em</label><br/>
+      </form>
+      
+      <form id="fontStretch" data-target=".styled.custom">
+        font-stretch:
+        <label>
+          <input name="fontStretch" type="radio" value="inherit">inherit</label>
+        <label>
+          <select name="fontStretch">
+            <optgroup label="Condensed">
+              <option value="ultra-condensed">Ultra condensed</option>
+              <option value="extra-condensed">Extra-condensed</option>
+              <option value="condensed">condensed</option>
+              <option value="semi-condensed">semi-condensed</option>
+            </optgroup>
+            <option value="normal" selected>normal</option>
+            <optgroup label="Expanded">
+              <option value="semi-expanded">semi-expanded</option>
+              <option value="expanded">expanded</option>
+              <option value="extra-expanded">expanded</option>
+              <option value="ultra-expanded">ultra-expanded</option>
+            </optgroup>
+          </select>
+        </label>
+      </form>
+      
+      <div id="test1">
+        <h3>Custom</h3>
+        <p class="styled custom">
+      <span style="text-transform:lowercase;">Quick Brown Fox Jumped Over The Lazy Dog;<br>Эй, жлоб! Где туз? Прячь юных съёмщиц в шкаф.</span>
+      <br>
+      <span style="text-transform:capitalize;">Quick Brown Fox Jumped Over The Lazy Dog;<br>Эй, жлоб! Где туз? Прячь юных съёмщиц в шкаф.</span>
+      <br>
+      <span style="font-variant:small-caps;">Quick Brown Fox Jumped Over The Lazy Dog;<br>Эй, жлоб! Где туз? Прячь юных съёмщиц в шкаф.</span>
+      <br>
+      <span style="text-transform:uppercase;">Quick Brown Fox Jumped Over The Lazy Dog;<br>Эй, жлоб! Где туз? Прячь юных съёмщиц в шкаф.</span>
+      <br> ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      <br> АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
+      <br> 0123456789!@#$%^&amp;*(){}[],.
+        </p>
+      </div>
+      
+      <!--textarea id="source"></textarea-->
+      <!--div id="aaa">
 		<p id="monospace">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
 	</div-->
-</form>
-<div id="test" onclick="this.contentEditable=true;this.style.webkitApperiance='textarea'" onchange="this.style.webkitAppearance=this.contentEditable=false" class="editable">
-	<h3>Regular</h3>
-    <p>
-        <span style="text-transform:lowercase;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        <span style="text-transform:capitalize;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        <span style="font-variant:small-caps;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        <span style="text-transform:uppercase;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
-        0123456789!@#$%^&amp;*(){}[],.
-    </p>
-	<h3>Bold</h3>
-    <p style="font-weight: bold;">
-        <span style="text-transform:lowercase;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        <span style="text-transform:capitalize;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        <span style="font-variant:small-caps;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        <span style="text-transform:uppercase;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
-        0123456789!@#$%^&amp;*(){}[],.
-    </p>
-	<h3>Italic</h3>
-    <p style="font-style: italic;">
-        <span style="text-transform:lowercase;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        <span style="text-transform:capitalize;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        <span style="font-variant:small-caps;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        <span style="text-transform:uppercase;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
-        0123456789!@#$%^&amp;*(){}[],.
-    </p>
-	<h3>Bold Italic</h3>
-    <p style="font-weight: bold;font-style: italic;">
-        <span style="text-transform:lowercase;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        <span style="text-transform:capitalize;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        <span style="font-variant:small-caps;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        <span style="text-transform:uppercase;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
-        0123456789!@#$%^&amp;*(){}[],.
-    </p>
-	<h3>Oblique</h3>
-    <p style="font-style: oblique;">
-        <span style="text-transform:lowercase;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        <span style="text-transform:capitalize;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        <span style="font-variant:small-caps;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        <span style="text-transform:uppercase;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
-        0123456789!@#$%^&amp;*(){}[],.
-    </p>
-	<h3>Bold Oblique</h3>
-    <p style="font-weight: bold;font-style: oblique;">
-        <span style="text-transform:lowercase;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        <span style="text-transform:capitalize;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        <span style="font-variant:small-caps;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        <span style="text-transform:uppercase;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
-        0123456789!@#$%^&amp;*(){}[],.
-    </p>
-</div>
-<hr/>
-<form>
-		font-weight:
-		<label><input name="fontWeight" type="radio" value="inherit">inherit</label>
-		<label>
-			<select name="fontWeight">
-				<optgroup label="Normal">
-					<option>(Very Light)</option>
-					<option value="100">(100) Ultra Light (Light)</option>
-					<option value="200">(200) Thin (Thin)</option>
-					<option value="300">(300) Light (Book)</option>
-					<option value="400">(400) Regular (Medium)</option>
-					<option value="500">(500) Semi Bold (Demi)</option>
-				</optgroup>
-				<optgroup label="Bold">
-					<option value="600">(600) Bold (Bold)</option>
-					<option value="700">(700) Extra Bold (Heavy)</option>
-					<option value="800">(800) Heavy (Black)</option>
-					<option value="900">(900) Ultra Heavy (Nord)</option>
-				</optgroup>
-			</select>
-		</label>
-		<label><input name="fontWeight" type="radio" value="-100">lighter</label>
-		<label><input name="fontWeight" type="radio" value="initial">initial</label>
-		<label><input name="fontWeight" type="radio" value="100">bolder</label>
-		
-		<label>line-height:<input name="lineheight" type="number" placeholder="1.5" size="3"/>em</label>
-		<label><em>interligne</em>:<input name="lineheight" type="number" placeholder="0.5"  size="3"/>em</label>
-</form>
-<div id="test1">
-	<h3>Custom</h3>
-    <p class="custom">
-        <span style="text-transform:lowercase;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        <span style="text-transform:capitalize;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        <span style="font-variant:small-caps;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        <span style="text-transform:uppercase;">Quick Brown Fox Jumped Over The Lazy Dog</span><br>
-        ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
-        0123456789!@#$%^&amp;*(){}[],.
-    </p>
-</div>
-<script src="http://leaverou.github.com/prefixfree/prefixfree.min.js"></script>
-	<script>
-	/* For counting average letter width (absolute width for monospace fonts)
-Element.prototype.getElementWidth = function() {
-    return typeof this.clip === "undefined" && this.style.pixelWidth || this.offsetWidth || this.clip.width
-};
-Element.prototype.getElementHeight = function() {
-    return typeof this.clip === "undefined" && this.style.pixelHeight || this.offsetHeight || this.clip.height
-};
+      <div id="test" onclick="this.contentEditable=true;this.style.webkitApperiance='textarea'" onchange="this.style.webkitAppearance=this.contentEditable=false" class="editable">
+        <h3>Regular</h3>
+        <p class="styled">
+          <span style="text-transform:lowercase;">Quick Brown Fox Jumped Over The Lazy Dog</span>
+          <br>
+          <span style="text-transform:capitalize;">Quick Brown Fox Jumped Over The Lazy Dog</span>
+          <br>
+          <span style="font-variant:small-caps;">Quick Brown Fox Jumped Over The Lazy Dog</span>
+          <br>
+          <span style="text-transform:uppercase;">Quick Brown Fox Jumped Over The Lazy Dog</span>
+          <br> ABCDEFGHIJKLMNOPQRSTUVWXYZ
+          <br> 0123456789!@#$%^&amp;*(){}[],.
+        </p>
+        <h3>Bold</h3>
+        <p class="styled" style="font-weight: bold;">
+          <span style="text-transform:lowercase;">Quick Brown Fox Jumped Over The Lazy Dog</span>
+          <br>
+          <span style="text-transform:capitalize;">Quick Brown Fox Jumped Over The Lazy Dog</span>
+          <br>
+          <span style="font-variant:small-caps;">Quick Brown Fox Jumped Over The Lazy Dog</span>
+          <br>
+          <span style="text-transform:uppercase;">Quick Brown Fox Jumped Over The Lazy Dog</span>
+          <br> ABCDEFGHIJKLMNOPQRSTUVWXYZ
+          <br> 0123456789!@#$%^&amp;*(){}[],.
+        </p>
+        <h3>Italic</h3>
+        <p class="styled" style="font-style: italic;">
+          <span style="text-transform:lowercase;">Quick Brown Fox Jumped Over The Lazy Dog</span>
+          <br>
+          <span style="text-transform:capitalize;">Quick Brown Fox Jumped Over The Lazy Dog</span>
+          <br>
+          <span style="font-variant:small-caps;">Quick Brown Fox Jumped Over The Lazy Dog</span>
+          <br>
+          <span style="text-transform:uppercase;">Quick Brown Fox Jumped Over The Lazy Dog</span>
+          <br> ABCDEFGHIJKLMNOPQRSTUVWXYZ
+          <br> 0123456789!@#$%^&amp;*(){}[],.
+        </p>
+        <h3>Bold Italic</h3>
+        <p class="styled" style="font-weight: bold;font-style: italic;">
+          <span style="text-transform:lowercase;">Quick Brown Fox Jumped Over The Lazy Dog</span>
+          <br>
+          <span style="text-transform:capitalize;">Quick Brown Fox Jumped Over The Lazy Dog</span>
+          <br>
+          <span style="font-variant:small-caps;">Quick Brown Fox Jumped Over The Lazy Dog</span>
+          <br>
+          <span style="text-transform:uppercase;">Quick Brown Fox Jumped Over The Lazy Dog</span>
+          <br> ABCDEFGHIJKLMNOPQRSTUVWXYZ
+          <br> 0123456789!@#$%^&amp;*(){}[],.
+        </p>
+        <h3>Oblique</h3>
+        <p class="styled" style="font-style: oblique;">
+          <span style="text-transform:lowercase;">Quick Brown Fox Jumped Over The Lazy Dog</span>
+          <br>
+          <span style="text-transform:capitalize;">Quick Brown Fox Jumped Over The Lazy Dog</span>
+          <br>
+          <span style="font-variant:small-caps;">Quick Brown Fox Jumped Over The Lazy Dog</span>
+          <br>
+          <span style="text-transform:uppercase;">Quick Brown Fox Jumped Over The Lazy Dog</span>
+          <br> ABCDEFGHIJKLMNOPQRSTUVWXYZ
+          <br> 0123456789!@#$%^&amp;*(){}[],.
+        </p>
+        <h3>Bold Oblique</h3>
+        <p class="styled" style="font-weight: bold;font-style: oblique;">
+          <span style="text-transform:lowercase;">Quick Brown Fox Jumped Over The Lazy Dog</span>
+          <br>
+          <span style="text-transform:capitalize;">Quick Brown Fox Jumped Over The Lazy Dog</span>
+          <br>
+          <span style="font-variant:small-caps;">Quick Brown Fox Jumped Over The Lazy Dog</span>
+          <br>
+          <span style="text-transform:uppercase;">Quick Brown Fox Jumped Over The Lazy Dog</span>
+          <br> ABCDEFGHIJKLMNOPQRSTUVWXYZ
+          <br> 0123456789!@#$%^&amp;*(){}[],.
+        </p>
+      </div>
 
-div = function(a,b){
-    return (a - a % b) / b;
-};
+      <script src="http://leaverou.github.com/prefixfree/prefixfree.min.js"></script>
+      <script>
+        addEventListener('DOMContentLoaded', function () {
+          var arr = document.querySelectorAll('[name="fontWeight"],[name="lineHeight"],[name="fontFamily"],[name="fontSize"],[name="fontStretch"]');
 
-Element.prototype.getFontWidth = function() {
-    return div(this.getElementWidth(), this.innerText && this.innerText.length || this.value.length)
-};
+          for (var x = 0; x < arr.length; x++) {
+            arr[x].onchange = function () {
+              var param = this.getAttribute('name'),
+                arr = document.getElementsByName(param),
+                target = document.querySelectorAll(document.getElementById(param).getAttribute('data-target')),
+                postfix = this.getAttribute('data-postfix');
 
-Element.prototype.getFontWidthEm = function() {
-    return (this.getElementWidth() / (this.innerText && this.innerText.length || this.value.length)) / this.getElementHeight();
-};
-(function(d,s){
-	d.getElementById('monospace').onmouseout=function(){
-		var bs= (this.style.backgroundSize || (this.style.backgroundSize = this.style.webkitBackgroundSize = this.getFontWidthEm() + 'em')),
-			ew=this.style.width = ((this.innerText && this.innerText.length || this.value.length)*this.style.backgroundSize.substring(0,this.style.backgroundSize.length-2))+'em',
-			fhp=this.getElementHeight() + 'px',fwe=Math.round(this.getFontWidthEm(),2) + 'em',
-			fwp=this.style.webkitFontWidth = this.style.fontWidth = this.getFontWidth() + 'px',
-			lc=(this.innerText && this.innerText.length || this.value.length);
-		console.log('background-size:',bs);
-		console.log('element-width:',ew);
-		console.log('font-size: 1em');
-		console.log('font-height:',fhp);
-		console.log('font-width:',fwe);
-		console.log('font-width:',fwp);
-		console.log('letter-count:',lc);
-		console.log(this.style);
-	};
-	d.getElementById('monospace').onmouseout();
-})(document);
-*/
-//var mainFont = document.getElementById('mainFont');
-function changeFont(selected){
-	var 
-		style = document.getElementById('template'),
-		mainFont = selected,
-		oldFont = 'data-old',
-		tmp = mainFont.getAttribute(oldFont),
-		output = document.getElementsByTagName('textarea')[0],
-		body = document.getElementsByTagName('body')[0],
-		alternativeFont = document.getElementById('alternativeFont'),
-		regex = new RegExp(tmp,'gi'),
-		s = style.innerHTML,
-		fontFamily = tmp + ', ' + alternativeFont.selectedOptions[0].innerText;
-	if(selected.value === alternativeFont.value) {
-	
-		body.style.fontFamily = (RegExp(mainFont.value).test(alternativeFont.selectedOptions[0].innerText)?'':mainFont.value + ', ')+alternativeFont.selectedOptions[0].innerText;
-	}else{
-		tmp = selected.value || tmp;
-		mainFont.setAttribute(oldFont,tmp);
-		output.value = style.innerHTML = s.replace(regex,tmp);
-		regex = new RegExp(fontFamily,'gi');
-		fontFamily = tmp + ', ' + alternativeFont.selectedOptions[0].innerText;
-		body.style.fontFamily = fontFamily;
-	}
-	console.log('font-family:' + body.style.fontFamily);
-}
+              for (var x = 0; x < arr.length; x++) {
+                this.checked = !(arr[x].checked = arr[x].selected = 0);
+              }
 
-</script>
-<script src="javascripts/dropimage.js"></script>
-<script src="javascripts/dropfont.js"></script>
-      </section>
-    </div>
+              for (var i = 0; i < target.length; i++) {
+                target[i].style[param] = this.value + (postfix?postfix:'');
+              }
+              console.log(target,param, this.value);
+            }
+          }
+        });
+      </script>
+      <script src="javascripts/dropimage.js"></script>
+      <script src="javascripts/dropfont.js"></script>
+    </section>
+  </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Woff fonts maintained by <a href="https://github.com/iegik">iegik</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+  <!-- FOOTER  -->
+  <div id="footer_wrap" class="outer">
+    <footer class="inner">
+      <p class="copyright">Woff fonts maintained by <a href="https://github.com/iegik">iegik</a>
+      </p>
+      <p>Published with <a href="http://pages.github.com">GitHub Pages</a>
+      </p>
+    </footer>
+  </div>
 
-  </body>
+</body>
+
 </html>

@@ -31,9 +31,13 @@ doc.ondrop = function (event) {
                 style = document.createElement("style");
                 style.innerText = "@font-face { font-family: '"+fontFamily+"';font-style: " + fontStyle + ";font-weight: "+fontWeight+"; src: local('Boton Bold'), url('" + evt.target.result + "') format('woff');}";
                 d.appendChild(style);
-                d.style.fontFamily = fontFamily;
-                d.style.fontWeight = fontWeight;
-                d.style.fontStyle = fontStyle;
+              
+              styled = document.getElementsByClassName('styled');
+              for(var i=0;i<styled.length;i++){
+                styled[i].style.fontFamily = fontFamily;
+                styled[i].style.fontWeight = fontWeight;
+                styled[i].style.fontStyle = fontStyle;
+              }
             };
         }(document.getElementsByTagName('body')[0]));
         reader.readAsDataURL(file);
